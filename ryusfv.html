@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Streets Stats</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel="canonical" href="http://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="mystyles.css">
+        <link rel="stylesheet" type="text/css" title="dark" href="mystylesdark.css">
+
+    </head>
+    <body onload="set_style_from_cookie()">
+
+		<div class="wrapAll clearfix">
+			<div class="sidebar">
+				<div class="logo">
+					<a href="home.html"><img src='streets.png' alt="logo"></a>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a href="home.html">Main page</a></li>
+						
+						<li><a href="sfv.html">Street Fighter 5</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="https://discordapp.com/invite/gy3q9Md">Super Turbo Discord</a></li>
+					</ul>	
+          <h3>Toggle Dark Mode</h3>
+					<ul>
+						<li>
+							<button type="button" onclick="switch_style('light');return false;" name="theme" value="Light Theme" id="light">Light Theme</button>
+							<button type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark">Dark Theme</button>
+						</li>
+					</ul>
+				</div>
+        </div>
+
+        <div class="mainsection">
+            <div class="tabs clearfix">
+                <div class="tabsLeft">
+                    <ul>
+                        <li><a href="home.html" class="active">Main Page</a></li>
+                                                
+                    </ul>
+                </div>
+                
+                <div class="tabsRight">
+                </div>
+            
+            </div>
+            <div class="article">
+                <h1>Ryu (SFV)</h1>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Ryu's Normals
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <article>
+                                <h2>5LP</h2>
+                                <img src="sfvryu5lp.png" allign="left" />
+                                <p> 
+                                    Startup: 3 Frames <br>
+                                    Active: 2 Frames  <br>
+                                    Recovery:7 Frames <br>
+                                    Damage: 30                           
+                                </p>
+                                <h2>5MP</h2>
+                                <img src="ryu5mp.png" allign="left" />
+                                <p>
+                                    Startup: 5 Frames <br>
+                                    Active: 3 Frames <br>
+                                    Recovery: 10 Frames <br>
+                                    Damage: 60
+                                </p>
+                                <h2>5HP</h2>
+                                <img src="ryu5hp.png" allign="left" />
+                                <p>
+                                    Startup: 8 Frames <br>
+                                    Active: 3 Frames <br>
+                                    Recovery: 20 Frames <br>
+                                    Damage: 90
+                                </p>
+                                <h2>5LK</h2>
+                                <img src="ryu5lk.png" allign="left" />
+                                <p>
+                                    Startup: 4 Frames <br>
+                                    Active: 3 Frames <br>
+                                    Recovery: 11 Frames <br>
+                                    Damage: 30
+                                </p>
+                                <h2>5MK</h2>
+                                <img src="ryu5mk.png" allign="left" />
+                                <p>
+                                    Startup: 8 Frames <br>
+                                    Active: 3 Frames <br>
+                                    Recovery: 16 Frames <br>
+                                    Damage: 70
+                                </p>
+                                <h2>5HK</h2>
+                                <img src="ryu5hk.png" allign="left" />
+                                <p>
+                                    Startup: 10 Frames <br>
+                                    Active: 2 Frames <br>
+                                    Recovery: 20 Frames <br>
+                                    Damage: 90
+                                </p>
+                                
+                            </article>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Ryu's Combo's
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <h2>A pretty cool combo video</h2>
+                          <video id="ryucombo" height="350" controls>
+                            <source src="ryucombovid.mp4" type="video/mp4">
+                          </video>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                
+                <div class="pagefooter">
+                This page was last edited on 4-29-21 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> <!-- Please leave this link unchanged -->
+                
+            </div>
+        
+        
+        </div>		
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="script.js"></script>
+    <script src="switch.js"></script>
+    <script src="vidvol.js"></script>
+
+</body>
+</html>
