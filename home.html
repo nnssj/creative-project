@@ -1,0 +1,120 @@
+
+<!--
+Author: Michael Frazier
+Date: 4-21-21
+-->
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Streets Stats</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" title="light" href="mystyles.css">
+		<link rel="stylesheet" type="text/css" title="dark" href="mystylesdark.css">
+    </head>
+    <body onload="set_style_from_cookie()">
+
+		<div class="wrapAll clearfix">
+			<div class="sidebar">
+				<div class="logo">
+					<a href="home.html"><img src='streets.png' alt="logo"></a>
+				</div>
+				
+				<div class="navigation">
+					<ul>
+						<li><a href="home.html">Main page</a></li>
+						
+						<li><a href="sfv.html">Street Fighter 5</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="https://discordapp.com/invite/gy3q9Md">Super Turbo Discord</a></li>
+					</ul>	
+					
+					<h3>Toggle Dark Mode</h3>
+					<ul>
+						<li>
+							<button type="button" onclick="switch_style('light');return false;" name="theme" value="Light Theme" id="light">Light Theme</button>
+							<button type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark">Dark Theme</button>
+						</li>
+					</ul>
+				</div>
+
+			
+			</div>
+			<div class="mainsection">
+				<div class="tabs clearfix">
+					<div class="tabsLeft">
+						<ul>
+							<li><a href="home.html" class="active">Main Page</a></li>
+												
+						
+						</ul>
+					</div>
+					
+					<div class="tabsRight">
+					</div>
+				
+				</div>
+				<div class="article">
+					<h1>Welcome to Streets Stats!</h1>
+					<p class="siteSub">A wiki-style website to assist you in learning Street Fighter.</p>
+					<p class="roleNote"></p>
+					<div class="grid">
+						<div class="boxed" style="width:400px; height:390px; grid-column-start:0;">
+							<div class="heading" style="text-align: center;">Supported Games</div><div style="padding:1%;">
+							<div style="text-align: center;">
+								<p>
+									<a href="sfv.html" title="Street Fighter v"><img alt="SFV" src="streetsv.png"width="300px"/></a>
+								</p>
+							</div>							
+						</div>
+					</div>
+						<div class="boxed" style="width: 700px; height: 390px; grid-column-start:2;">
+							<div class="heading" style="text-align: center;">Learn the Notation!</div>
+							<div class="grid">
+								<img src="fgnotation1.jpg" style="grid-row-start:1; margin:auto;" />
+								<p style="grid-row-start:2; text-align:left; margin-left:80px; margin-right:80px; font-size:small">The above image describes the format in wich this 
+									website will display inputs used the fighting games covered. This can be applied to almost any fighting game and it is a popular
+									format to describe inputs. This format is also assuming you are facing right. Moving forward would be to hold 6, and backwards to hold 4.<br> 
+									Some common inputs would be; 236P, for Hadouken, or 623P for Shoryuken.</p>
+							</div>
+						</div>
+						<div class="boxed" style="width: 600px; height: 300px; grid-row-start:2;">
+							<div class="grid2">
+								<p style="grid-row-start:1; text-align: center;grid-column-start:2; margin:27px;">“Footsies” is oldschool slang for the mid-range ground-based aspect of fighting game strategy. It refers to a situation where both players are outside of combo range and attack each other with long-range, generally safe attacks (pokes). The ultimate goal is to control the flow of the match, bait the opponent into committing errors, and punish everything.</p>
+							</div>
+							<div class="grid2">
+							<p class="bordered" style="grid-column-start:2; grid-row-start:1; margin-left:15px; margin-top:15px; margin-bottom:15px;"><a rel="nofollow" href="https://www.youtube.com/watch?v=FQQCan5oo90">Footsies Video by Juicebox</a></p>
+							<p class="bordered" style="grid-column-start:3; grid-row-start:1; margin-left:15px; margin-top:15px; margin-bottom:15px;"><a rel="nofollow" href="https://sonichurricane.com/?page_id=1702">Footsies Handbook by Maj</a></p>
+						</div>
+					</div>
+					</div>
+
+					
+					<div class="pagefooter">
+					This page was last edited on 4-29-21 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> <!-- Please leave this link unchanged -->
+					
+				</div>
+			
+			
+			</div>		
+		</div>
+		
+		
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="script.js"></script>
+		<script src="switch.js"></script>
+
+
+    </body>
+</html>
